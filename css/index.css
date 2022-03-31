@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    height: 100px;
+}
+.bodybox{
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    background-color: blanchedalmond;
+    padding: 1%;
+}
+.leftAside{
+    background-color: aliceblue;
+    height: 80%;
+    width: 15%;
+
+}
+.rightAside{
+    background-color: aliceblue;
+    height: 80%;
+    width: 15%;
+
+}
+.centerbox{
+    background-color: aliceblue;
+    height: 40%;
+    width: 45%;
+
+}
+.mainbox{
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+    height: 900px;
+    padding: 1%;
+}
+.recent{
+    background-color: aliceblue;
+    height: 40%;
+    width: 15%;
+
+}
+.newPost{
+    background-color: aliceblue;
+    height: 100%;
+    width: 55%;
+
+}
+.add{
+    background-color: aliceblue;
+    height: 40%;
+    width: 15%;
+
+}
