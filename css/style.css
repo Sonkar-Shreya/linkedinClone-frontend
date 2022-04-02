@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    height: 100%;
+    margin-top: 0px;
+    
+
+}
+.navbar{
+    background-color: rgb(231, 214, 214);
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center ;
+    height: 70px;
+    width: 100%;
+    
+}
+.navoptions{
+    /* background-color: crimson; */
+    display: flex;
+    
+}
+.search{
+    /* padding-left: 215px; */
+    margin-right: 700px;
+}
+.icons{
+    /* background-color: hotpink; */
+    margin: 7px;
+    /* display: flex;
+    flex-direction: row; */
+   
+   
+}
+.structure{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    /* height: 400px; */
+    /* height: 900px; */
+    padding-top: 60px;
+    
+}
+.leftAside{
+    background-color: black;
+    width: 14%;
+    height: 100vh;
+    margin: 1%; 
+    
+    /* padding: 1% ; */
+}
+.profile{
+    background-color: rgb(217, 106, 128);
+    height: 40%;
+    border: 2px solid rgb(139, 27, 49);
+    border-radius: 12px;
+    
+}
+.recent{
+    background-color:rgb(83, 237, 83);
+    height: 40%;
+    margin-top: 5%;
+    border: 2px solid rgb(25, 133, 56);
+    border-radius: 12px;
+    position: sticky;
+    top: 90px;
+    
+    
+   
+}
+.rightAside{
+    /* background-color: white; */
+     width: 14%;
+     height: 100%;
+    margin: 1%; 
+    
+}
+.news{
+    background-color: rgb(217, 106, 128);
+    height: 40%;
+    border: 2px solid rgb(139, 27, 49);
+    border-radius: 12px;
+}
+.ad{
+    background-color:rgb(83, 237, 83);
+    height: 40%;
+    margin-top: 5%;
+    border: 2px solid rgb(25, 133, 56);
+    border-radius: 12px;
+    position: sticky;
+    top: 90px;
+   
+}
+.mainBody{
+    background-color: black;
+    width: 48%; 
+    height: 100%;
+    margin: 1%; 
+}
+.posts{
+    background-color: rgb(54, 211, 247);
+    height: 150px;
+    
+    
+    border: 2px solid rgb(129, 2, 134);
+    border-radius: 12px;
+}
+.inputtext{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+.option{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 6%; */
+    background-color: white;
+}
+.newpost{
+    background-color: rgb(221, 157, 175);
+    height: 1250px;
+    margin-top: 2%;
+    border: 2px solid rgb(219, 111, 141);
+    border-radius: 12px;
+}
+.scrollFix{
+    position: fixed;
+    top: 0px;
+    width: 254px;
+    /* height: 170px; */
+    /* background-color: red; */
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgsvg{
+    height: 30px;
+    width: 30px;
+}
+.img{
+    height: 70px;
+    width: 70px;
+}
+.inputfield{
+    height: 30px;
+    width: 520px;
+}

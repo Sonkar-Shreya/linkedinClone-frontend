@@ -4,39 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LinkedIN_-clone</title>
-    <link rel="stylesheet" href="../css/index.css">
+    <title>LinkedINclone</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
     <div class="navbar">
-        <div>
+        <div class="search">
             <span>search</span>
             <input type="text">
         </div>
 
-        <div class="options">
+        <div class="navoptions">
 
-            <span class="icons">home</span>
-            <span class="icons">My network</span>
-            <span class="icons">jobs</span>
-            <span class="icons">Messaging</span>
-            <span class="icons">notification</span>
-            <span class="icons">me</span>
+            <span class="icons">
+                <span class="icon">
+                    <img src="../svg/icons8-home.svg"  class="imgsvg">
+                    <span>Home</span>
+                </span>
+            </span>
+            <span class="icons">
+                <span class="icon">
+                    <img src="../svg/icons8-contacts.svg" class="imgsvg" >
+                    <span>My Networks</span>
+                </span>
+            </span>
+            <span class="icons">
+                <span class="icon">
+                    <img src="../svg/icons8-permanent-job-50.png"  class="imgsvg" >
+                    <span>Job</span>
+                </span>
+            </span>
+            <span class="icons">
+                <span class="icon">
+                    <img src="../svg/icons8-topic-24.png"  class="imgsvg">
+                    <span>Message</span>
+                </span>
+            </span>
+            <span class="icons">
+                <span class="icon">
+                    <img src="../svg/icons8-notification-24.png" class="imgsvg">
+                    <span>Notification</span>
+                </span>
+            </span>
+            <span class="icons">
+                <span class="icon">
+                    <img src="../svg/icons8-female-profile-30.png" class="imgsvg">
+                    <span>Me</span>
+                </span>
+            </span>
         </div>
 
 
     </div>
 
-    <div class="bodybox">
-        <div class="leftAside"> something write here</div>
-        <div class="centerbox"> posting box</div>
-        <div class="rightAside">news box</div>
+    <div class="structure">
+        <div class="leftAside"> 
+            <div class="profile">Shreya sonkar</div>
+            <div class="recent">recent</div>
+        </div>
+        <div class="mainBody">
+            <div class="posts">
+                <div class="inputtext">
+
+                    <div class="photo">
+                    <img src="../svg/icons8-female-profile-30.png" class="img">
+
+                    </div>
+                    <div class="create">
+                        <input type="text" class="inputfield">
+                    </div>
+                </div>
+                <div class="option">
+                    <span>Photo</span>
+                    <span>Video</span>
+                    <span>Event</span>
+                    <span>Write Article</span>
+
+                </div>
+            </div>
+            <div class="newpost">New Posts</div>
+            <div class="newpost">New Posts</div>
+            <div class="newpost">New Posts</div>
+            <div class="newpost">New Posts</div>
+
+        </div>
+        <div class="rightAside">
+            <div class="news">News</div>
+            <div class="ad">add</div>
+        </div>
     </div>
-    
-    <div class="mainbox">
-        <div class="recent"> recents</div>
-        <div class="newPost"> new post</div>
-        <div class="add">advertisement</div>
-    </div>
+    <script src="../javascript/script.js"> </script>
 </body>
 </html>
